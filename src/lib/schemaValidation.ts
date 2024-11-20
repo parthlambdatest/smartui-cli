@@ -123,6 +123,10 @@ const ConfigSchema = {
             maximum: 1000,
             errorMessage: "Invalid config; scrollTime must be > 1 and <= 1000"
         },
+        handleSpecialCharacters: {
+            type: "boolean",
+            errorMessage: "Invalid config; handleSpecialCharacters must be a boolean value"
+        },
         allowedHostnames: {
             type: "array",
             items: {

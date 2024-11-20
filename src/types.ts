@@ -22,6 +22,7 @@ export interface Context {
         enableJavaScript: boolean;
         cliEnableJavaScript: boolean;
         scrollTime: number;
+        handleSpecialCharacters: boolean;
         allowedHostnames: Array<string>;
         basicAuthorization: basicAuth | undefined;
         smartIgnore: boolean;
