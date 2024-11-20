@@ -150,7 +150,7 @@ const ConfigSchema = {
                     errorMessage: "Invalid config; password is mandatory"
                 },
             }
-        },
+        }, 
         delayedUpload: {
             type: "boolean",
             errorMessage: "Invalid config; delayedUpload must be true/false"
